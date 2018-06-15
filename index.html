@@ -12,7 +12,7 @@
   };
   var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
   loader.load()
-    .catch(function (error) { console.error(error); });
+    .catch(function (error) {console.error("this error happened"); console.error(error); });
 </script>
 
   </body>
